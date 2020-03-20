@@ -1,0 +1,68 @@
+body{
+	
+	font-family: 'Oxanium';
+	font font-weight: lighter;
+	text-align:center; background-color: #FFC9B5;
+	margin:0;
+}
+
+a:hover {
+  color: green;
+}
+
+h1{
+
+	text-align: center;
+}
+#LW{
+	color:red;
+}
+#banner{
+	background-image: url('images/background.jpg');
+		height:200px;
+		padding: 40px;
+		background-size: cover;
+}
+#cards{ 
+	text-align: center;
+
+}
+.card{
+	
+	box-shadow:1px 1px 2px grey;
+	
+	align: center;
+}
+#footer{
+	background: #807182;
+	padding:40px;
+}
+.image-circle{
+	align:center;
+	height:300px;
+	width:300px;
+	border-radius:50%;
+	object-fit:cover;
+ }
+ .image-radius{
+ 	border-radius:20px;
+ }
+
+ .button-blue{
+
+  background-color: #413c69;
+  color: white;
+  padding: 16px 48px;
+  border-radius: 4px;
+  display: inline-block;
+  text-decoration: none;
+  transition: .3s;
+
+ }
+ .button-blue:hover{
+  background-color: #ad62aa;
+  color: white;
+}
+#cards{display:grid;
+grid-template-columns:1fr 1fr 1fr;
+grid-gap:2px;}
